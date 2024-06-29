@@ -5,6 +5,7 @@ This is the repository the holds the python machine learning code from the Mines
 
 * [File Structure and Hierarchy](#file-structure-and-hierarchy)
 * [Required Imports](#required-imports)
+* [YOLO_results folder](#YOLO_results-folder)
 * [Functions](#functions)
 * [YOLOv8 model](#yolov8-model)
 * [Running the code](#running-the-code)
@@ -26,6 +27,9 @@ pip install: `pip install opencv-python`
 import: `import cv2`
 
 OpenCV Python documentation: https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
+## YOLO_results Folder
+This folder contains the performance of the YOLOv8 model that we trained. It contains graphs, accuracy, precision, recall, F1, confusion matrices, and other helpful information. 
+
 ## Functions
 All functions are in the same predict.py file.
 
